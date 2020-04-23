@@ -1,37 +1,9 @@
 /*
-
-# 
-# All Rights (c) to @wlanpsk 2020
+#
+# All Rights (c) to @y053f01 2020
 # https://y053f01.github.io
 #
-
 */
-
-
-
-
-
-
-
-//$(document).ready(function () {
-// 	$("#me-btn").click(function() {
-// 		$("#media").load("me.html");
-// 	});
-//}); 
-
-//$(document).ready(function () {
-// 	$("#skills-btn").click(function() {
-// 		skills();
-// 		
-// 	});
-//}); 
-
-
-// $(document).ready(function(){
-// 	setInterval(function(){
-//  	skills();
-// 	}, 2000);
-// });
 
 function sklsTwo() {
 var i = document.getElementById("codes-html");
@@ -519,4 +491,3 @@ function content() {
  	content.className = "content";
  }
 }
-
