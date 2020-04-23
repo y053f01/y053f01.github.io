@@ -1,0 +1,1017 @@
+h1,h2,
+h3,h4,
+h5,h6,
+div,header,
+body,footer,
+span,center,button{
+font-family: 'Ubuntu Mono', monospace;
+}
+.skls-card{
+height: 100%;
+margin-top: 15px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 15px;
+position: fixed;
+top: 0px;
+left: 0px;
+transition: .3s;
+transition-delay: 1.4s;
+right: 0px;
+bottom: 0px;
+background-color: rgb(252, 251, 255);
+z-index: 1;
+border-radius: 15px;
+transform: translate3d(0, 100%, 0);
+}
+
+.skls-card-hover{
+height: 100%;
+margin-bottom: 15px;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+transition: .3s;
+background-color: rgb(252, 251, 255);
+z-index: 2;
+border-radius: 15px;
+transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+.skillscardhide{
+visibility: visible;
+}
+
+.skillscardshow{
+visibility: hidden;
+}
+
+.tap-bar{
+display: block;
+margin-bottom: 10px;
+}
+
+.tap-title{
+margin-right: -50px;
+font-size: 15px;
+margin-top: 100px;
+margin-bottom: -100px;
+font-weight: 400;
+}
+
+.skills-title{
+width: 290px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+padding-bottom: 2px;
+}
+
+.skills-con{
+overflow: scroll;
+margin-top: 15px;
+height: 100%;
+background-color: rgb(252, 251, 255);
+}
+
+.lan-name-html{
+display: block;
+font-size: 15px;
+color: rgb(255,140,0);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(255,140,0);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-html;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-html{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-css{
+display: block;
+font-size: 15px;
+color: rgb(0,0,255);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(0,0,255);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-css;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-css{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-php{
+display: block;
+font-size: 15px;
+color: rgb(123,104,238);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(123,104,238);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-php;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-php{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-mysql{
+display: block;
+font-size: 15px;
+color: rgb(70,130,180);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(70,130,180);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-mysql;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-mysql{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-js{
+display: block;
+font-size: 15px;
+color: rgb(255,255,0);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(255,255,0);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-js;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-js{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-c{
+display: block;
+font-size: 15px;
+color: rgb(30,144,255);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(30,144,255);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-c;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-c{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-java{
+display: block;
+font-size: 15px;
+color: rgb(255,69,0);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(255,69,0);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-java;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-java{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.lan-name-python{
+display: block;
+font-size: 15px;
+color: rgb(255,255,102);
+font-size: 17px;
+-webkit-text-stroke: .5px #999;
+font-weight: 200;
+letter-spacing: 1.5px;
+margin-top: 5px;
+background-image: linear-gradient(-45deg, transparent 45%, #fff, transparent 55%);
+background-color: rgb(255,255,102);
+background-position: 30px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-repeat: no-repeat;
+animation-name: lang-python;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+@keyframes lang-python{
+0%
+{background-position: -100px}
+100%
+{ background-position: 100px}
+}
+
+.code-name{
+width: 320px;
+height: 10px;
+margin-bottom: 2px ;
+}
+
+.code-num {
+float: left;
+text-align: center;
+padding: 2px;
+width: 25px;
+display: block;
+margin-left: -15px;
+overflow: visible;
+font-size: 12px;
+}
+.triangle-0 {
+width: 1.5px;
+height: 6px;
+border-top: solid 6px rgb(200,30,50);
+border-left: solid 6px transparent;
+border-right: solid 6px transparent;
+}
+
+.codes-html{
+width: 320px;
+height: 17px;
+border: 1px solid #aaa;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0.001, 0.001,0);
+transition: .3s;
+transition-delay: 1.2s;
+background-color: #fff;
+}
+.codes-css{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: 1.1s;
+}
+.codes-php{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .9s;
+}
+.codes-mysql{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .8s;
+}
+.codes-js{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .7s;
+}
+.codes-c{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .6s;
+}
+.codes-java{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .5s;
+}
+.codes-python{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+transform: scale3d(0, 0,0);
+transition: .3s;
+background-color: #fff;
+transition-delay: .4s;
+}
+
+/* ----HOVER---- */
+.codes-html-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .27s;
+background-color: #fff;
+animation-name: html-hover;
+animation-delay: .37s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes html-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-css-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .37s;
+background-color: #fff;
+animation-name: css-hover;
+animation-delay: .47s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes css-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-php-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .47s;
+background-color: #fff;
+animation-name: php-hover;
+animation-delay: .57s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes php-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-mysql-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .57s;
+background-color: #fff;
+animation-name: mysql-hover;
+animation-delay: .67s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes mysql-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-js-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .67s;
+background-color: #fff;
+animation-name: js-hover;
+animation-delay: .77s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes js-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-c-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .77s;
+background-color: #fff;
+animation-name: c-hover;
+animation-delay: .87s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes c-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+.codes-java-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .87s;
+background-color: #fff;
+animation-name: java-hover;
+animation-delay: .97s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes java-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+
+.codes-python-hover{
+width: 320px;
+height: 17px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1px;
+margin-top: 23px;
+margin-bottom: 10px;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.45);
+transform: scale3d(1, 1,0);
+transition: .3s;
+transition-delay: .97s;
+background-color: #fff;
+animation-name: python-hover;
+animation-delay: 1.07s;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes python-hover{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
+
+.code-per-html {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-css {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-php {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-mysql {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-js {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-c {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.code-per-java {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+.code-per-python {
+float: left;
+height: 100%;
+width: 0%;
+transition: .3s;
+}
+/*
+//
+// Hover
+//
+*/
+.code-per-html-hover {
+float: left;
+height: 100%;
+width: 91%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-css-hover {
+float: left;
+height: 100%;
+width: 75%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-php-hover {
+float: left;
+height: 100%;
+width: 41%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-mysql-hover {
+float: left;
+height: 100%;
+width: 40%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-js-hover {
+float: left;
+height: 100%;
+width: 50%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-c-hover {
+float: left;
+height: 100%;
+width: 10%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-java-hover {
+float: left;
+height: 100%;
+width: 1%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+
+.code-per-python-hover {
+float: left;
+height: 100%;
+width: 20%;
+transition: 1.2s;
+transition-delay: 2.07s;
+}
+/*
+//
+// Languages 
+//
+*/
+
+.html{
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.css {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.php {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.mysql {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.js {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.c {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+width: 0%;
+border-radius: 3px;
+transition: .3s;
+}
+
+.java {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+border-radius: 3px;
+width: 0%;
+transition: .3s;
+}
+.python {
+float: left;
+height: 100%;
+background-color: #dcdcdc;
+border-radius: 3px;
+width: 0%;
+transition: .3s;
+}
+
+/*
+//
+// Languages progresa
+//
+*/
+
+.html-progress{
+float: left;
+height: 100%;
+background-color: rgb(255,140,0);
+width: 91%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.27s;
+}
+
+.css-progress {
+float: left;
+height: 100%;
+background-color: rgb(0,0,255);
+width: 75%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.37s;
+}
+
+.php-progress {
+float: left;
+height: 100%;
+background-color: rgb(123,104,238);
+width: 41%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.47s;
+}
+
+.mysql-progress {
+float: left;
+height: 100%;
+background-color: rgb(70,130,180);
+width: 40%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.57s;
+}
+
+.js-progress {
+float: left;
+height: 100%;
+background-color: rgb(255,255,0);
+width: 50%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.67s;
+}
+
+.c-progress {
+float: left;
+height: 100%;
+background-color: rgb(30,144,255);
+width: 10%;
+border-radius: 3px;
+transition: 1.2s;
+transition-delay: 1.77s;
+}
+
+.java-progress {
+float: left;
+height: 100%;
+background-color: rgb(255,69,0);
+border-radius: 3px;
+width: 1%;
+transition: 1.2s;
+transition-delay: 1.87s;
+}
+.python-progress {
+float: left;
+height: 100%;
+background-color: rgb(255,255,102);
+border-radius: 3px;
+width: 20%;
+transition: 1.2s;
+transition-delay: 1.97s;
+}
+.done-two{
+width: 350;
+}
+
+.done-two-act{
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 30px;
+padding-bottom: 5px;
+float: right;
+font-weight: 700;
+font-size: 17px;
+color: rgb(0,122,255);
+}
+.done-two-act:hover{
+color: red;
+}
+#done-btn-skls{width:220px}
+.done-btn{
+width: 200px;
+margin-top: 20px;
+color: #000;
+padding: 12px;
+font-size: 16px;
+border-radius: 15px;
+transform: scale3d(1, 1.1, 0);
+background-color: #dcdcdc;
+animation-name: btn-closeitTwo;
+box-shadow:0 1px 6px rgba(32, 33, 36, 0.18);
+animation-duration: 1s;
+animation-iteration-count:infinite;
+}
+
+@keyframes btn-closeitTwo{
+0%{transform: scale3d(1, 1.1, 0);}
+5%{transform: scale3d(1.01, 1.09, 0);}
+10%{transform: scale3d(1.02, 1.08, 0);}
+15%{transform: scale3d(1.03, 1.07, 0);}
+20%{transform: scale3d(1.04, 1.06, 0);}
+25%{transform: scale3d(1.05, 1.05, 0);}
+30%{transform: scale3d(1.06, 1.04, 0);}
+35%{transform: scale3d(1.07, 1.03, 0);}
+40%{transform: scale3d(1.08, 1.02, 0);}
+45%{transform: scale3d(1.09, 1.01, 0);}
+50%{transform: scale3d(1.1, 1, 0);}
+55%{transform: scale3d(1.09, 1.01, 0);}
+60%{transform: scale3d(1.08, 1.02, 0);}
+65%{transform: scale3d(1.07, 1.03, 0);}
+70%{transform: scale3d(1.06, 1.04, 0);}
+75%{transform: scale3d(1.05, 1.05, 0);}
+80%{transform: scale3d(1.04, 1.06, 0);}
+85%{transform: scale3d(1.03, 1.07, 0);}
+90%{transform: scale3d(1.02, 1.08, 0);}
+95%{transform: scale3d(1.01, 1.09, 0);}
+100%{transform: scale3d(1, 1.1, 0);}
+}
+
+.done-btn-hover{
+width: 200px;
+margin-top: 20px;
+color: #000;
+padding: 12px;
+font-size: 16px;
+border: 2px solid #dcdcdc;
+border-radius: 15px;
+background-color: #dcdcdc;
+animation-name: done;
+animation-duration: .3s;
+animation-iteration-count:1;
+}
+@keyframes done{
+0%
+{transform: scale3d(0.85, 0.85, 0);}
+50%
+{transform: scale3d(1, 1, 0);}
+75%
+{transform: scale3d(0.95, 0.95, 0);}
+100%
+{ transform: scale3d(1, 1, 0);}
+}
