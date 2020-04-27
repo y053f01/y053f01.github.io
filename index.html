@@ -1,3 +1,9 @@
+<!--
+#
+# All Rights (c) to @y053f01 2020
+# https://y053f01.github.io
+#
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +18,7 @@
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="style2.css" type="text/css" />
+<link rel="stylesheet" href="style3.css" type="text/css" />
 
 <link rel="stylesheet" href="animatio.css" type="text/css" />
 <title>Y053F's Smart Page ツ</title>
@@ -23,25 +30,37 @@
 </head>
 
 <script type="text/javascript">
-
+$(document).ready(function () {
+ 	$("#btn-close-fast").click(function() {
+ 		closeit();content();
+ });
+}); 
 $(document).ready(function () {
  	$("#btn-close").click(function() {
  		btn_close_hover();closeit();content();
  });
 }); 
 $(document).ready(function () {
+ 	$("#dis-end-me").click(function() {
+ 		skls_dis_end();
+ });
+});
+$(document).ready(function () {
+ 	$("#dis-start-me").click(function() {
+ 		skls_dis_start();
+ });
+});
+$(document).ready(function () {
  	$("#done-btn-skls").click(function() {
  		skls();
  });
 });
 
-
-function alert_vis() {
-alert("Y053F says:\nThis page under development");
-}
-
-
-
+setTimeout(function()
+{  
+ var elem_btn_close = document.getElementById("btn-close");
+     elem_btn_close.innerHTML = "<div id=\"btn-close-id\" class=\"btn-close\">Lets Go!</div>";     
+}, 13000);
 </script>
 <center>
 <header>
@@ -63,6 +82,19 @@ alert("Y053F says:\nThis page under development");
 </header>
 <center>
 <body>
+
+<div id="skls-dis" class="skls-dis">
+<div id="skls-dis-card" class="skls-dis-card">
+<div id="dis-end-me"><i class="fal fa-times-circle"></i></div>
+<br />
+<div class="tit-wat-is-skls">What's Skills?</div>
+<br />
+<div class="dis-skls-word">Skills is section where I'm moving up to learn programming languages.</div>
+<div id="dis-start-me">StartMe</div>
+</div>
+</div>
+
+
 <div id="skls-card" class="skls-card">
   
 
@@ -203,12 +235,16 @@ alert("Y053F says:\nThis page under development");
 <div id="media" class="person">
 
 
+<div id="content-pro" class="content-pro">
+<div class="projects">
+<div class="pro-title">Projects</div>
+<div class="pro-list">Well!<br />• I built many website pages and designed it.<br />•So I can's say this is my first project.</div>
+</div>
+</div>
+
 
 <div id="content" class="content">
-<div class="centent-in">
-<br />
- <span id="cont-3" class="cont-3"></span>
-</div>
+
 
 <div class="profile-name-pic">
 <img id="mylogo" class="mylogo" src="7B8038B5-B220-4F96-98E7-6D63274B4F98.jpeg" />
@@ -216,16 +252,46 @@ alert("Y053F says:\nThis page under development");
 y053f
  </span>
 </div>
-<div class="messagef">Measage:</div>
-<div id="typeit" class="type-it">
-<span class="stage-one">Theme 1:</span>
-<div id="typeitinone" class="type-one"></div>
-<span class="stage-two">Theme 2:</span>
-<div id="typeitintwo" class="type-two"></div>
+<div id="messagess" class="messagess"></div>
+<div class="type-it">
+
+<div id="theme3" class="theme3">
+	<span class="theme">Theme 3:</span>
+	<div id="typeitintwo" class="typeall">
+	I have supported many browser like: Chrome, FireFox and Safari; by CSS<code><br />
+	-o-
+	<br />
+	-moz-
+	<br />
+	-webkit-
+	</code>
+	</div>
+</div>
+
+<div id="theme2" class="theme2">
+	<span class="theme">Theme 2:</span>
+	<div class="typeall">
+	In theme two I will keep developing this page till I end it. its need more time...
+	</div>
+</div>
+<div id="theme1" class="theme1">
+	<span class="theme">Theme 1:</span>
+	<div class="typeall">
+	Hello agian!, 
+	In fact I have no idea what I will type here! so lets make it done now.
+	</div>
+</div>
+
 </div>
 </div>
 
 <div id="load-page" class="load-page">
+<div class="btn-close-fast-place">
+<div id="btn-close-fast" class="btn-close-fast">
+<i class="fal fa-times-circle"></i>
+</div>
+</div>
+
  <div class="load-page-in">
  <div class="messages"></div>
   <script type="text/javascript" src="anime.js"></script>
@@ -239,15 +305,15 @@ y053f
 </body>
 <footer>
 <div id="aaaa" class="aaaa">
- <div onclick="" id="me-btn" class="aaab">
+ <div onclick="mefun()" id="me-btn" class="aaab">
   <i class="fal fa-user"></i>
   <div class="aaag">Me</div>
  </div>
- <div onclick="skls()" class="aaac">
+ <div onclick="skls_dis()" class="aaac">
   <i class="fal fa-align-left"></i>
   <div class="aaag">Skills</div>
  </div>
- <div onclick="alert_vis()" class="aaad">
+ <div onclick="profun()" class="aaad">
   <i class="fal fa-file"></i>
   <div class="aaag">Projects</div>
  </div>
