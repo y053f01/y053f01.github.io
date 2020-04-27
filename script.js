@@ -44,7 +44,7 @@ var opts = document.getElementById("opts");
 var opts2 = document.getElementById("opts2");
 var opts3 = document.getElementById("opts3");
 
- if (test.className === "aaaj") {
+ if (test.className == "aaaj") {
  	aaaa.className = "aaaa-aftr";
  	test.className = "aaaj2";
  	menu.className = "menu";
@@ -85,7 +85,7 @@ function skls() {
   var code_per_python = document.getElementById("code-per-python");
   var done = document.getElementById("done-btn");
   
-  if (a.className === "skls-card") {
+  if (a.className == "skls-card") {
     done.className = "done-btn";
     a.className = "skls-card-hover";
     aaaa.className = "aaaa-aftr";
@@ -430,13 +430,6 @@ function goInLess() {
   }
  }, 0);
 }
-
-setTimeout(function()
-{  
- var elem_btn_close = document.getElementById("btn-close");
-     elem_btn_close.innerHTML = "<div id=\"btn-close-id\" class=\"btn-close\">Lets Go!</div>";     
-}, 13000);
-
 function closeit() {
  var load_page = document.getElementById("load-page");
  if (load_page.className == "load-page") {
@@ -463,25 +456,23 @@ function content() {
  var content = document.getElementById("content");
  var name = document.getElementById("name");
  var mylogo = document.getElementById("mylogo");
- var typeit = document.getElementById("typeit");
+ var theme3 = document.getElementById("theme3");
+ var theme2 = document.getElementById("theme2");
+ var theme1 = document.getElementById("theme1");
  
  if (content.className == "content") {
   content.className = "content-hover";
   name.className = "name-hover";
   mylogo.className = "mylogo-hover";
-  typeit.className = "type-it-hover";
+  theme3.className = "theme3-hover";
+  theme2.className = "theme2-hover";
+  theme1.className = "theme1-hover";
   setTimeout(function()
 		{  
-	  $('#typeitinone').typeIt({
-	    strings: ['Hello agian!', 'In fact I have no idea what I will type here! so lets make it done now.']
+	  $('#messagess').typeIt({
+	    strings: ['Messages:']
 	  });
 		}, 1000);
-		  setTimeout(function()
-		{  
-			  $('#typeitintwo').typeIt({
-	    strings: ['In theme two I will keep developing this page till I end it. its need more time...']
-	  });
-		}, 10000);
 		setTimeout(function()
 		{  
    namename();
@@ -489,5 +480,53 @@ function content() {
 		
  } else {
  	content.className = "content";
+ }
+}
+
+function skls_dis() {
+	var i = document.getElementById("skls-dis");
+	var ii = document.getElementById("skls-dis-card");
+	if (i.className == "skls-dis") {
+		i.className = "skls-dis-hover";
+		ii.className = "skls-dis-card-hover";
+	}
+}
+function skls_dis_end() {
+	var i = document.getElementById("skls-dis");
+	var ii = document.getElementById("skls-dis-card");
+	if (i.className == "skls-dis-hover") {
+		i.className = "skls-dis";
+		ii.className = "skls-dis-card";
+	}
+}
+
+function skls_dis_start() {
+	var i = document.getElementById("skls-dis");
+	var ii = document.getElementById("skls-dis-card");
+	if (i.className == "skls-dis-hover") {
+		i.className = "skls-dis";
+		ii.className = "skls-dis-card";
+			setTimeout(function()
+			{  
+			skls();   
+			}, 500);
+		}
+	}
+	
+function profun() {
+var content = document.getElementById("content");
+var projects = document.getElementById("content-pro");
+ if (content.className == "content-hover" || content.className == "content-hover-two") {
+  content.className = "content-two";
+  projects.className = "content-pro-hover";
+ }
+}
+
+function mefun() {
+var content = document.getElementById("content");
+var projects = document.getElementById("content-pro");
+ if (content.className == "content-two") {
+  content.className = "content-hover-two";
+ 	projects.className = "content-pro";
  }
 }
