@@ -2,7 +2,7 @@
 #
 # All Rights (c) to @y053f01 2020
 # https://y053f01.github.io
-#
+# 
 */
 
 function sklsTwo() {
@@ -37,27 +37,18 @@ var viii = document.getElementById("codes-python");
 }
  
 function test() {
+var touchtocancel = document.getElementById("touchtocancel");
 var aaaa = document.getElementById("aaaa");
 var test = document.getElementById("test");
-var menu = document.getElementById("menu");
-var opts = document.getElementById("opts");
-var opts2 = document.getElementById("opts2");
-var opts3 = document.getElementById("opts3");
 
  if (test.className == "aaaj") {
+  touchtocancel.className = "touchtocancel"
  	aaaa.className = "aaaa-aftr";
  	test.className = "aaaj2";
- 	menu.className = "menu";
- 	opts.className = "opts-aftr";
- 	opts2.className = "opts-aftr2";
- 	opts3.className = "opts-aftr3";
  } else {
+  touchtocancel.className = "touchtocancelnone"
  	aaaa.className = "aaaa";
  	test.className = "aaaj";
- 	menu.className = "menu-bfr";
- 	opts.className = "opts";
- 	opts2.className = "opts2";
- 	opts3.className = "opts3";
  }
 }
 
@@ -456,6 +447,7 @@ function content() {
  var content = document.getElementById("content");
  var name = document.getElementById("name");
  var mylogo = document.getElementById("mylogo");
+ var theme4 = document.getElementById("theme4");
  var theme3 = document.getElementById("theme3");
  var theme2 = document.getElementById("theme2");
  var theme1 = document.getElementById("theme1");
@@ -464,6 +456,7 @@ function content() {
   content.className = "content-hover";
   name.className = "name-hover";
   mylogo.className = "mylogo-hover";
+  theme4.className = "theme4-hover";
   theme3.className = "theme3-hover";
   theme2.className = "theme2-hover";
   theme1.className = "theme1-hover";
