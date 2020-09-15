@@ -710,7 +710,7 @@ top: 0;
 right: 0;
 bottom: 0;
 position: fixed;
-width: 70%;
+width: 65%;
 height: 100%;
 z-index: 4;
 box-shadow:0 1px 6px rgba(32, 33, 36, 0.10);
@@ -723,7 +723,7 @@ transition: .3s;
 top: 0;
 right: 0;
 bottom: 0;
-width: 55%;
+width: 65%;
 height: 100%;
 position: fixed;
 z-index: 4;
@@ -907,7 +907,7 @@ color: #999;
 
 
 .copyrightsc{
-margin-top: 15rem;
+margin-top: 10rem;
 font-size: 10px;
 }
 
