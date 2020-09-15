@@ -20,7 +20,7 @@ var viii = document.getElementById("codes-python");
  	ii.className = "codes-css-hover";
  	iii.className = "codes-php-hover";
  	iv.className = "codes-mysql-hover";
- 	v.className = "codes-js-hover";
+ 	v.className = "codes-js-hover"; 
  	vi.className = "codes-c-hover";
  	vii.className = "codes-java-hover";
  	viii.className = "codes-python-hover";
@@ -37,18 +37,30 @@ var viii = document.getElementById("codes-python");
 }
  
 function test() {
+var sociallinks = document.getElementById("sociallinks");
 var touchtocancel = document.getElementById("touchtocancel");
 var aaaa = document.getElementById("aaaa");
 var test = document.getElementById("test");
+var socials1 = document.getElementById("socials1");
+var socials2 = document.getElementById("socials2");
+var socials3 = document.getElementById("socials3");
 
  if (test.className == "aaaj") {
+  sociallinks.className = "sociallinks"
   touchtocancel.className = "touchtocancel"
  	aaaa.className = "aaaa-aftr";
  	test.className = "aaaj2";
+  socials1.className = "socials1tweet"
+  socials2.className = "socials2insta"
+  socials3.className = "socials3github"
  } else {
+  sociallinks.className = "sociallinks1"
   touchtocancel.className = "touchtocancelnone"
  	aaaa.className = "aaaa";
  	test.className = "aaaj";
+  socials1.className = "socials1"
+  socials2.className = "socials2"
+  socials3.className = "socials3"
  }
 }
 
