@@ -446,14 +446,7 @@ function btn_close_hover() {
   load_page.className = "btn-close-hover";
  }
 }
-function namename() {
-	var name = document.getElementById("name");
-	var mylogo = document.getElementById("mylogo");
- if (name.className == "name-hover") {
-   	name.className = "name-hover-two";
-   	mylogo.className = "mylogo-hover-two";
- }
-}
+
    
 function content() {
  var content = document.getElementById("content");
