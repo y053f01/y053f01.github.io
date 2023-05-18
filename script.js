@@ -84,7 +84,7 @@ function showSkillsShowAtch(){
   document.getElementById("info_skillss").style.padding = "15px";
   document.getElementById("info_skillss").style.transition = "0.5s";
 
-   document.getElementById("info_atch").style.height = "450px";
+   document.getElementById("info_atch").style.height = "650px";
   document.getElementById("info_atch").style.padding = "15px";
   document.getElementById("info_atch").style.transition = "0.5s";
 }
