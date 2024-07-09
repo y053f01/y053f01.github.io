@@ -90,7 +90,7 @@ $(document).ready(function() {
                     output = `
                         <div id="project-link">1. <a href="https://github.com/y053f01/python/blob/master/fh_xxxxxx.crack.py" target="_blank">fh_xxxxxx.crack.py</a> - Wifi crack for FiberHome Modem Model: HG6245N.</div>
                         <div id="project-link">2. <a href="#" target="_blank">phantomCloud v3.1</a> - A private cloud server, if you would like to use it, contact me on Instagram @y053f01.</div>
-                        <div id="project-link">2. <a href="#" target="_blank">shellpage</a> - A free web page as shell command for you :)</div>
+                        <div id="project-link">3. <a href="https://github.com/y053f01/python/blob/master/shellpage.zip" target="_blank">shellpage</a> - A free web page as shell command for you :)</div>
                     `;
                     break;
                 case 'certificates':
