@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: #bdbdbd;
+    font-family: monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid  rgb(30, 255, 30);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 70px 5px 20px 0px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    max-height: 100%;
+    overflow-y: auto; /* Adds vertical scrolling to output */
+}
+
+#input-line {
+    display: flex;
+}
+
+#prompt {
+    margin-right: 10px;
+}
+.executed-command {
+    color: rgb(255, 165, 0); /* Change this color as needed */
+}
+#command-input {
+    background: transparent;
+    border: none;
+    color: rgb(28, 219, 28);
+    outline: none;
+    width: 100%;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.certificates img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+#certs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title {
+    color: rgb(30, 255, 30);
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 5px 10px 0px;
+}
+
+#descimg {
+    text-align: left;
+    font-size: 15px;
+    margin: 10px 5px 10px 0px;
+    color: #d8d8d8;
+}
+
+#whoami {
+    margin: 10px 5px 10px 0px;
+}
+#skills-a{
+color: #8e8eff;
+}
+#skills-c{
+    color: rgb(230, 99, 99);
+}
+
+a{
+    text-decoration: none;
+    color: #8e8eff;
+}
+#commands{
+    margin: 10px 5px 10px 0px;
+}
+#command-error{
+    margin: 10px 5px 10px 0px;
+}
